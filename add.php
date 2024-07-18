@@ -6,7 +6,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     $newBook = [
         'id'=> uniqid(),
         'title' => $_POST['title'],
-        'author' =>$_POST['title'],
+        'author' =>$_POST['author'],
         'isbn' => $_POST['isbn']
     ];
 
